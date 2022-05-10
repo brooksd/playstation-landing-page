@@ -3,6 +3,7 @@
     padding: 0;
     font-family: sans-serif;
 }
+/* Navigation Section */
 
 .container {
     width: 100%;
@@ -50,6 +51,8 @@ nav ul li a {
 nav ul li a:hover {
     color: #ff2ea2;
 }
+
+/* Hero Content Section */
 
 .row {
     display: flex;
@@ -121,4 +124,17 @@ button:hover {
     position: absolute;
     left: -30px;
     top: 8px;
+}
+
+/* Controller Section */
+
+.col-2 {
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.col-2 .controller {
+    width: 90%;
 }
