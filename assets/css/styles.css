@@ -29,6 +29,7 @@
 .menu-icon {
     width: 25px;
     cursor: pointer;
+    display: none;
 }
 
 nav {
@@ -164,6 +165,37 @@ button:hover {
 
 /* Social Links */
 
-.social-links img {
+.social-links {
+    text-align: center;
+}
 
+.social-links img {
+    height: 15px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+
+    nav ul {
+        width: 100%;
+        background: linear-gradient(#ff54a2, #ff575a);
+        top: 75;
+        right: 0;
+        z-index: 2;
+    }
+
+    nav ul li {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        color: #fff;
+    }
+
+    .menu-icon {
+        display: block;
+    }
 }
